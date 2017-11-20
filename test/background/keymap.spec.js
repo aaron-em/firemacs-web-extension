@@ -1,8 +1,8 @@
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
 
-import Keymap from '../src/keymap';
-import { parseKeymap } from '../src/lib/parse-utils.js';
+import Keymap from '../../src/background/keymap';
+import { parseKeymap } from '../../src/lib/parse-utils.js';
 
 describe('Keymap handling', () => {
     describe('Class', () => {

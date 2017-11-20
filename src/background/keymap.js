@@ -1,5 +1,5 @@
-import constants from './lib/constants';
-import { parseKeymap, lookupCommand } from './lib/parse-utils';
+import constants from '../lib/constants';
+import { parseKeymap, lookupCommand } from '../lib/parse-utils';
 
 class Keymap {
     constructor(def) {
