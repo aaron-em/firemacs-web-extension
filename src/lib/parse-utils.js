@@ -114,4 +114,18 @@ function lookupCommand(map, seq) {
     return cmdName;
 };
 
-export { kbd, translateSeq, translateKey, sortSeq, validate, parseKeymap, lookupCommand, KeySequenceError };
+function keyIsMeta(key) {
+	return metaKeys.some(item => key === item);
+};
+
+export {
+	kbd,
+	translateSeq,
+	translateKey,
+	sortSeq,
+	validate,
+	parseKeymap,
+	lookupCommand,
+	KeySequenceError,
+	keyIsMeta
+};

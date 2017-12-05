@@ -20,7 +20,7 @@ export default Object.freeze({ // REALLY constant.
         "kill-line": ["C-k"],
         "yank": ["C-y"],
         // commands otherwise modifying the buffer
-        "delete-char": ["C-d", "DEL"],
+        "delete-char": ["C-d"],
         "delete-backward-char": [],
         "kill-word": ["M-DEL"],
         "backward-kill-word": ["M-<backspace>"],
